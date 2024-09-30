@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "keh-documentation-structure"
+version = "0.1.0"
+description = ""
+authors = ["Sebastian <Sebastian.Evison-Theodossiades@ons.gov.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.5.39"
+mkdocstrings = "^0.26.1"
+mkdocstrings-python = "^1.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
