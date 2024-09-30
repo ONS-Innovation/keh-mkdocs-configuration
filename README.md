@@ -1,6 +1,6 @@
 # KEH Documentation Structure
 ### Overview
-This example repository highlights how KEH uses MkDocs for the documentation on each project.
+This example repository highlights how KEH uses MkDocs for the documentation on each project. More information can be found on the [KEH's confluence page](https://confluence.ons.gov.uk/display/KEH/Code+Documentation).
 
 ### Setup
 
@@ -47,3 +47,20 @@ mkdocs build
 ```
 
 and rename the `site` folder to `mkdocs_deployment`.
+
+## Deploying to GitHub Pages
+For more info, follow [MkDocs instructions](https://www.mkdocs.org/user-guide/deploying-your-docs/).
+
+```bash
+mkdocs gh-deploy
+```
+
+## Documentation
+ 
+This project uses MkDocs for documentation which gets deployed to GitHub Pages at a repository level.
+ 
+For more information about MkDocs, see the below documentation.
+ 
+[Getting Started with MkDocs](https://www.mkdocs.org/getting-started/)
+ 
+There is a guide to getting started on this repository's GitHub Pages site.
