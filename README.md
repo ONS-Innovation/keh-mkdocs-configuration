@@ -34,8 +34,6 @@ mkdocs build
 
 and rename the `site` folder to `mkdocs_deployment`.
 
-Make sure to include `.github/workflows/deploy_mkdocs.yml` in your repository so when your code is merged or committed to main, it redeploys the GitHub pages.
-
 ## Deploying to GitHub Pages
 Make sure the `.github/workflows/deploy_mkdocs.yml` is in your root folder and commit to main, the GitHub action should deploy your MkDocs to GitHub Pages.
 
