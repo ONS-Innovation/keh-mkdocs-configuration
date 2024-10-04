@@ -4,7 +4,7 @@ repo_url: https://github.com/ONS-Innovation/keh-documentation-structure
 repo_name: KEH Documentation Structure
 
 nav:
-  - Home: 'index.md'
+  - Home: index.md
   - Documentation: 'documentation.md'
 
   
