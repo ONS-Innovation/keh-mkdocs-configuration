@@ -1,4 +1,4 @@
-# KEH Documentation Structure
+# KEH MkDocs Configuration
 ## Overview
 This example repository highlights how KEH uses MkDocs for the documentation on each project. More information can be found on the [KEH's confluence page](https://confluence.ons.gov.uk/pages/viewpage.action?pageId=225098833).
 
