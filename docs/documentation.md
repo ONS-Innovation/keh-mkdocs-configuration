@@ -51,7 +51,6 @@ In order to build an MkDocs deployment or serve the documentation locally, we ne
 ### GitHub Action to Deploy Documentation
 
 A GitHub Action is set up to automatically deploy the documentation to GitHub Pages whenever a commit is made to the `main` branch. This action is triggered by a push event to the `main` branch and runs the `mkdocs gh-deploy` command to build and deploy the documentation.
-The action is defined in [`.github/workflows/deploy_mkdocs.yml`](./.github/workflows/deploy_mkdocs.yml).
 
 ### Manual Deployment
 
