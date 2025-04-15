@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an example website using KEH's documentation setup. More information, such as how to use this setup in your own projects, can be found at [KEH's confluence page](https://confluence.ons.gov.uk/display/KEH/Code+Documentation).
+This is an example website using KEH's documentation setup. More information, such as how to use this setup in your own projects, can be found at [KEH's confluence page](https://confluence.ons.gov.uk/pages/viewpage.action?pageId=225098833).
 
 ## Material for MkDocs
 
