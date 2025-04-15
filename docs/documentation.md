@@ -48,6 +48,13 @@ In order to build an MkDocs deployment or serve the documentation locally, we ne
 
 ## Updating MkDocs Deployment
 
+### GitHub Action to Deploy Documentation
+
+A GitHub Action is set up to automatically deploy the documentation to GitHub Pages whenever a commit is made to the `main` branch. This action is triggered by a push event to the `main` branch and runs the `mkdocs gh-deploy` command to build and deploy the documentation.
+The action is defined in [`.github/workflows/deploy_mkdocs.yml`](./.github/workflows/deploy_mkdocs.yml).
+
+### Manual Deployment
+
 If changes are made within `/docs`, the GitHub Pages deployment will need to be updated. Assuming you have already installed [MkDocs](https://www.mkdocs.org/getting-started/#installation) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/#installation), do the following:
 
 1. Navigate to the projects root directory.
